@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "pj-dev-store"
+  "defaultProject": "pj-dev-store",
+  "cli": {
+    "analytics": "c4338405-6fb6-44f5-9fe5-39c8c3870869"
+  }
 }

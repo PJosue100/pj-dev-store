@@ -1,0 +1,23 @@
+Para empezar a trabajar con Angular
+
+Se necesita descargar nodejs 
+    se puede usar el comando node -v para ver la version de nodejs instalada,
+    ademas podemos ver la version de npm -v; esto nos ayuda para manejar los paquetes(sin embargo es necesario profundizar mas en el tema)
+
+Extensiones en Visual Studio Code
+    Angular Language Service    
+    TsLint
+
+
+
+Comandos usados en Angular
+ng new "nombre del proyecto"  con este comando creamos el proyecto Angular
+ng serve (--port 4600 opcional establecer el puerto) sirve para crear un servidor en donde se ejecute la aplicacion Angular
+ng --version con este comando podemos ver las versiones de cada uno de los paquetes que componen nuestro proyecto
+ng build -prod  este comando se usa para preparar la aplicacion para produccion.
+
+
+String interpolation   sirve para renderizar variables {{ variableName }} que contiene TS que se ejecuta por angular y la salida se inserta en el HTML . 
+Similar a las expresiones EL en jsf(java).
+
+Data binding en Angular
