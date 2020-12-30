@@ -21,3 +21,12 @@ String interpolation   sirve para renderizar variables {{ variableName }} que co
 Similar a las expresiones EL en jsf(java).
 
 Data binding en Angular
+La parte variable del codigo es title por que es la que se encuentra en el archivo app.componen.TsLint
+ngModel; sirve para enlazar el input a la variable title
+<input type="text" [(ngModel)] = "title" >
+{{title}}
+
+Docuementacion importante
+https://gustavodohara.com/blogangular/banana-in-box-banana-la-caja/
+
+
